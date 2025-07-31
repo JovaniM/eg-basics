@@ -1,7 +1,7 @@
 ---
 name: Template for challenges issues
 about: This template should be used to challenges issues
-title: &lt; Challenge title &gt;
+title: < Challenge title >
 labels: challenge
 assignees: ""
 ---
