@@ -13,7 +13,8 @@ g++ main.cpp player.cpp -o main
 # execution steps using CMake
 
 ```
-cmake -b .
+cmake -B build -S .
+cd build
 make
 ./EG-BASICS
 ```

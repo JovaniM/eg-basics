@@ -10,6 +10,6 @@ public:
 
 private:
   std::string name;
-  int16_t hp = 0;
+  uint16_t hp = 0;
 };
 #endif
