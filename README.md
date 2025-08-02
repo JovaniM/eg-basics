@@ -1,6 +1,6 @@
 # eg-basics
 
-This is a course to leearn the basics of videogame development
+This is a course to learn the basics of videogame development
 
 # execution steps using CMake
 
