@@ -1,6 +1,6 @@
 #include "Player.h"
 
-Player::Player(std::string name, uint16_t hp, uint16_t power_attack)
+Player::Player(const std::string &name, uint16_t hp, uint16_t power_attack)
     : Character(name, hp, power_attack) {}
 
 std::string Player::get_name() const { return name; }

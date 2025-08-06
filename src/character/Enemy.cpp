@@ -1,6 +1,6 @@
 #include "Enemy.h"
 
-Enemy::Enemy(std::string name, uint16_t hp, uint16_t power_attack)
+Enemy::Enemy(const std::string &name, uint16_t hp, uint16_t power_attack)
     : Character(name, hp, power_attack) {}
 
 std::string Enemy::get_name() const { return name; }

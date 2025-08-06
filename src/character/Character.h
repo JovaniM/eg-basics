@@ -6,7 +6,7 @@
 
 class Character {
 public:
-  Character(std::string name, uint16_t hp, uint16_t power_attack);
+  Character(const std::string &name, uint16_t hp, uint16_t power_attack);
   virtual std::string get_name() const = 0;
   virtual uint16_t get_health_points() const = 0;
   virtual void receive_damage(uint16_t damage) = 0;
