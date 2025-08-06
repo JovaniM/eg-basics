@@ -1,6 +1,7 @@
 #include "Character.h"
 
-Character::Character(std::string name, uint16_t hp, uint16_t power_attack)
+Character::Character(const std::string &name, uint16_t hp,
+                     uint16_t power_attack)
     : name{name}, hp{hp}, power_attack{power_attack} {}
 
 void Character::apply_damage(uint16_t damage) {

@@ -6,7 +6,7 @@
 
 class Player : public Character {
 public:
-  Player(std::string name, uint16_t hp, uint16_t power_attack);
+  Player(const std::string &name, uint16_t hp, uint16_t power_attack);
   std::string get_name() const override;
   uint16_t get_health_points() const override;
   void receive_damage(uint16_t damage) override;

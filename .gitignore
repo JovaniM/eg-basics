@@ -41,3 +41,5 @@
 *.dwo
 
 build/
+content.txt
+content_collect.py
